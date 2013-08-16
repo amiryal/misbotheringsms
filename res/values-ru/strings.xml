@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">No Stranger SMS</string>
+    <string name="action_settings">Настройки</string>
+    <string name="add_to_contacts">Добавить в контакты</string>
+    <string name="delete">Удалить</string>
+    <string name="copy_text">Скопировать текст</string>
+    <string name="move_to_inbox">Переместить во входящие</string>
+    <string name="delete_all">Удалить все</string>
+
+</resources>
