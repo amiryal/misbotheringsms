@@ -32,7 +32,7 @@ Signed Android package: [nostrangersms.apk](http://glesik.ru/playground/android/
 
 ![QR code](http://glesik.ru/playground/android/nostrangersms_qr.png "QR code")
 
-If you like this application and want to see it on Google Play, please [donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8RNEWF8QHQHTN) (Bitcoin: `1DbZjPqe4uaBv32deNqwbWUTrCempo2Wqk`) so I can pay registration fee.
+If you like this application and want to see it on Google Play, please [donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JHX494AFDUU24) (Bitcoin: `1DbZjPqe4uaBv32deNqwbWUTrCempo2Wqk`) so I can pay registration fee.
 
 ## Changelog
 
