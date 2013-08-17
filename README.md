@@ -19,6 +19,13 @@ Features:
 * удаление или отправка сообщения во входящие;
 * открытый исходный код, лицензия GPL.
 
+## Screenshot
+
+[![t1]][1]
+
+[t1]: http://glesik.ru/wp-content/uploads/2013/08/nostrangersms_02-180x300.png
+[1]: http://glesik.ru/wp-content/uploads/2013/08/nostrangersms_02.png
+
 ## Download
 
 Signed Android package: [nostrangersms.apk](http://glesik.ru/playground/android/nostrangersms.apk) (Android 2.2+)
