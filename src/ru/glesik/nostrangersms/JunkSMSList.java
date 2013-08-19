@@ -48,7 +48,8 @@ import android.widget.SimpleAdapter;
 public class JunkSMSList extends Activity {
 
 	List<Map<String, String>> listData = new ArrayList<Map<String, String>>();
-
+	boolean isListEmpty;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -62,6 +63,27 @@ public class JunkSMSList extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.junk_smslist, menu);
+		return true;
+	}
+	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case R.id.delete_all:
+			// Delete all messages.
+			DatabaseHandler db = new DatabaseHandler(this);
+			db.deleteAllSms();
+			refreshList();
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+	
+	@Override
+	public boolean onPrepareOptionsMenu (Menu menu) {
+		// Disable 'delete all' menu if list is empty.
+		MenuItem mi = menu.findItem(R.id.delete_all);
+		mi.setEnabled(!isListEmpty);
 		return true;
 	}
 
@@ -165,6 +187,10 @@ public class JunkSMSList extends Activity {
 						android.R.id.text2 });
 		ListView smsListView = (ListView) findViewById(R.id.smsListView);
 		smsListView.setAdapter(adapter);
-		// TODO: disable 'delete' menu item if list is empty.
+		if (adapter.getCount() > 0) {
+			isListEmpty = false;
+		} else {
+			isListEmpty = true;
+		}
 	}
 }
