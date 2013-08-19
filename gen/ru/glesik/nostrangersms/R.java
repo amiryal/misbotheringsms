@@ -48,6 +48,7 @@ public final class R {
         public static final int copy_text=0x7f050004;
         public static final int delete=0x7f050003;
         public static final int delete_all=0x7f050006;
+        public static final int delete_all_confirm=0x7f050007;
         public static final int move_to_inbox=0x7f050005;
     }
     public static final class style {

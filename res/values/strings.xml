@@ -8,5 +8,6 @@
     <string name="copy_text">Copy text</string>
     <string name="move_to_inbox">Move to Inbox</string>
     <string name="delete_all">Delete all</string>
+    <string name="delete_all_confirm">Delete all messages?</string>
 
 </resources>

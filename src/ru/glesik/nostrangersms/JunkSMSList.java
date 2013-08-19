@@ -33,8 +33,10 @@ import android.provider.ContactsContract.Contacts;
 import android.provider.ContactsContract.Intents;
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
@@ -58,6 +60,14 @@ public class JunkSMSList extends Activity {
 		registerForContextMenu(smsListView);
 		refreshList();
 	}
+	
+	@Override
+	protected void onNewIntent(Intent intent) {
+	    super.onNewIntent(intent);
+	    // Update messages when notification is clicked and activity is visible.
+	    refreshList();
+	    setIntent(intent);
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -71,9 +81,22 @@ public class JunkSMSList extends Activity {
 		switch (item.getItemId()) {
 		case R.id.delete_all:
 			// Delete all messages.
-			DatabaseHandler db = new DatabaseHandler(this);
-			db.deleteAllSms();
-			refreshList();
+			AlertDialog.Builder confirmDialog = new AlertDialog.Builder(this);
+			confirmDialog.setMessage(R.string.delete_all_confirm);
+			confirmDialog.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialog, int which) {
+					DatabaseHandler db = new DatabaseHandler(getApplicationContext());
+					db.deleteAllSms();
+					refreshList();
+				}
+			});
+			confirmDialog.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialog, int which) {
+				}
+			});
+			confirmDialog.show();
 			return true;
 		}
 		return super.onOptionsItemSelected(item);

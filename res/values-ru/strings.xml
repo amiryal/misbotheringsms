@@ -8,5 +8,6 @@
     <string name="copy_text">Скопировать текст</string>
     <string name="move_to_inbox">Переместить во входящие</string>
     <string name="delete_all">Удалить все</string>
+    <string name="delete_all_confirm">Удалить все сообщения?</string>
 
 </resources>
