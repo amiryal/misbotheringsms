@@ -36,6 +36,10 @@ If you like this application and want to see it on Google Play, please [donate](
 
 ## Changelog
 
+1.2
+
+ * Notification priority set to LOW, Android 2 icons.
+
 1.1
 
  * Option to delete all messages, refresh on notification click.
