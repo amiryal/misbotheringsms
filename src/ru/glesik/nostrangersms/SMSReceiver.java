@@ -79,7 +79,7 @@ public class SMSReceiver extends BroadcastReceiver {
 					NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(
 							context).setSmallIcon(icon).setContentTitle(sender)
 							.setContentText(message)
-							.setPriority(NotificationCompat.PRIORITY_DEFAULT)
+							.setPriority(NotificationCompat.PRIORITY_LOW)
 							.setOnlyAlertOnce(true);
 					// TODO: Optional light notification.
 					Intent ni = new Intent(context, JunkSMSList.class);
