@@ -1,20 +1,20 @@
 # No Stranger SMS
 
-Blocks messages from senders not in your contact list.
+Blocks messages from senders not in your contact list, filtering spam.
 
 Features:
 
-* Silent notifications and storage of messages from unknown senders;
+* silent notifications and storage of messages from unknown senders;
 * add sender to system address book;
 * delete message or move to Inbox;
 * open source, under GPL license.
 
 ---
-Блокировка сообщений от отправителей, отсутствующих в ваших контактах.
+Блокировка сообщений от отправителей, отсутствующих в ваших контактах, отсеивающая спам.
 
 Возможности:
 
-* Беззвучные уведомления и хранение сообщений от "незнакомцев";
+* беззвучные уведомления и хранение сообщений от "незнакомцев";
 * добавление отправителя в системную адресную книгу;
 * удаление или отправка сообщения во входящие;
 * открытый исходный код, лицензия GPL.
