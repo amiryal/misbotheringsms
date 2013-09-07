@@ -32,6 +32,13 @@ Signed Android package: [nostrangersms.apk](http://glesik.ru/playground/android/
 
 ![QR code](http://glesik.ru/playground/android/nostrangersms_qr.png "QR code")
 
+Or get if from F-Droid repository:
+
+[![t2]][2]
+
+[t2]: http://glesik.ru/wp-content/uploads/2013/08/get_it_on_f-droid_45.png
+[2]: https://f-droid.org/repository/browse/?fdid=ru.glesik.nostrangersms
+
 If you like this application and want to see it on Google Play, please [donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JHX494AFDUU24) (Bitcoin: `1DbZjPqe4uaBv32deNqwbWUTrCempo2Wqk`) so I can pay registration fee.
 
 ## Changelog
