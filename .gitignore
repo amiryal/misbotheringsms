@@ -20,7 +20,7 @@ local.properties
 .project
 .settings/
 
-# Android Studio files
+# Android Studio
 .iml
 .idea/
 .gradle
