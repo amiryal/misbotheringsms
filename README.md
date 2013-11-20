@@ -43,6 +43,10 @@ If you like this application and want to see it on Google Play, please [donate](
 
 ## Changelog
 
+1.3
+
+ * Date is now preserved when moving SMS to Inbox. Removed big borders around message list.
+
 1.2
 
  * Notification priority set to LOW, Android 2 icons.
