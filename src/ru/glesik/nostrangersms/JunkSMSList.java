@@ -158,6 +158,17 @@ public class JunkSMSList extends Activity {
 				ContentValues values = new ContentValues();
 				values.put("address", sms.getSender());
 				values.put("body", sms.getMessage());
+				// Convert message date to milliseconds
+				String date = sms.getDate();
+				SimpleDateFormat format = new SimpleDateFormat(
+						"yyyy-MM-dd'T'HH:mm'Z'");
+				format.setTimeZone(TimeZone.getTimeZone("UTC"));
+				try {
+					Date dateD = format.parse(date);
+					values.put("date", dateD.getTime());
+				} catch (ParseException e) {
+					e.printStackTrace();
+				}
 				getContentResolver().insert(Uri.parse("content://sms/inbox"),
 						values);
 				db.deleteSms(sms);
