@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ru.glesik.nostrangersms"
-    android:versionCode="140"
-    android:versionName="1.4" >
+    android:versionCode="141"
+    android:versionName="1.4.1" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -32,7 +32,7 @@
             android:name="ru.glesik.nostrangersms.SMSReceiver"
             android:enabled="true"
             android:exported="true" >
-            <intent-filter android:priority="999" >
+            <intent-filter android:priority="9999" >
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" >
                 </action>
             </intent-filter>
