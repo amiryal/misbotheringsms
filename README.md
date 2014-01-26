@@ -2,6 +2,8 @@
 
 Blocks messages from senders not in your contact list, filtering spam.
 
+Warning: KitKat (Android 4.4) is not supported yet due to API change!
+
 Features:
 
 * silent notifications and storage of messages from unknown senders;
@@ -11,6 +13,8 @@ Features:
 
 ---
 Блокировка сообщений от отправителей, отсутствующих в ваших контактах, отсеивающая спам.
+
+Внимание: поддержка KitKat (Android 4.4) пока отсутствует из-за смены API!
 
 Возможности:
 
