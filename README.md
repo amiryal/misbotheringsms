@@ -27,20 +27,20 @@ Features:
 
 [![t1]][1]
 
-[t1]: http://glesik.ru/wp-content/uploads/2013/08/nostrangersms_02-180x300.png
-[1]: http://glesik.ru/wp-content/uploads/2013/08/nostrangersms_02.png
+[t1]: http://glsk.net/wp-content/uploads/2013/08/nostrangersms_02-180x300.png
+[1]: http://glsk.net/wp-content/uploads/2013/08/nostrangersms_02.png
 
 ## Download
 
-Signed Android package: [nostrangersms.apk](http://glesik.ru/playground/android/nostrangersms.apk) (Android 2.2+)
+Signed Android package: [nostrangersms.apk](http://glsk.net/playground/android/nostrangersms.apk) (Android 2.2+)
 
-![QR code](http://glesik.ru/playground/android/nostrangersms_qr.png "QR code")
+![QR code](http://glsk.net/playground/android/nostrangersms_qr.png "QR code")
 
 Or get if from F-Droid repository:
 
 [![t2]][2]
 
-[t2]: http://glesik.ru/wp-content/uploads/2013/08/get_it_on_f-droid_45.png
+[t2]: http://glsk.net/wp-content/uploads/2013/08/get_it_on_f-droid_45.png
 [2]: https://f-droid.org/repository/browse/?fdid=ru.glesik.nostrangersms
 
 If you like this application and want to see it on Google Play, please [donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JHX494AFDUU24) (Bitcoin: `1DbZjPqe4uaBv32deNqwbWUTrCempo2Wqk`) so I can pay registration fee.
@@ -69,6 +69,6 @@ If you like this application and want to see it on Google Play, please [donate](
 
 ## License
 
-Copyright (c) 2013 Alexander Inglessi (http://glesik.ru).
+Copyright (c) 2013 Alexander Inglessi (http://glsk.net).
 
 Code licensed under [GNU GPL](http://www.gnu.org/licenses/gpl.html) version 3 or any later version. Artwork licensed under [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/) 3 or any later version.
