@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- versionCode encodes a semver X.Y.Z-B as X*10^9+Y*10^6+Z*10^3+B -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ru.glesik.nostrangersms"
-    android:versionCode="142"
-    android:versionName="1.4.2" >
+    package="net.yxejamir.misbotheringsms"
+    android:versionCode="1000000"
+    android:versionName="0.1.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="18"
-        android:maxSdkVersion="18" />
+        android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
-    <uses-permission android:name="android.permission.READ_SMS" />
-    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:label="@string/app_name" >
         <activity
-            android:name="ru.glesik.nostrangersms.JunkSMSList"
+            android:name="net.yxejamir.misbotheringsms.About"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <receiver
-            android:name="ru.glesik.nostrangersms.SMSReceiver"
+            android:name="net.yxejamir.misbotheringsms.SMSReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter android:priority="9999" >
