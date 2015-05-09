@@ -26,21 +26,24 @@ homepage][1] anyway, and donate to the cause of submitting it to Google Play.
 
 ## Roadmap
 
-### x.0.0
+### major.0.0
 
  * Advanced filtering using whitelist or blacklist.
 
-### 0.x.0
+### 0.minor.0
 
- * Add preferences screen to choose whether to play a notification sound,
- vibrate or both.
- * Ability to pick notification sound and vibration pattern.
- * Improve the About screen.
+ * Handle toast notifications as well.
+ * Preferences screen to choose whether to play a notification sound, vibrate
+ or both.
+ * Notification sound and vibration pattern picker.
+ * Improve About screen.
+ * New app icon.
 
-### 0.1.x
+### 0.1.bugfix
 
  * Fix bug: intents don’t start the app as soon as it’s installed.  Workaround:
  start the app manually from launcher for the first time.
+ * Unify all licensing and copyright notices under README and COPYING.
 
 ## Changelog
 
@@ -49,6 +52,7 @@ homepage][1] anyway, and donate to the cause of submitting it to Google Play.
  * Fork project for Android 4.4 functionality.
  * Strip down to only making sound and vibration for senders in the contacts
  list.
+ * Rearrange project files and write clear copyright notices.
 
 ## License
 
