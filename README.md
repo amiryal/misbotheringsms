@@ -35,6 +35,7 @@ homepage][1] anyway, and donate to the cause of submitting it to Google Play.
  * Handle toast notifications as well.
  * Preferences screen to choose whether to play a notification sound, vibrate
  or both.
+ * Access to settings of Messaging app in a click.
  * Notification sound and vibration pattern picker.
  * Improve About screen.
  * New app icon.
@@ -60,7 +61,11 @@ Copyright © 2013, 2014, 2015 Alexander Inglessi (http://glsk.net)
 <br>
 Copyright © 2015 Amir Yalon
 
-Code licensed under [GNU GPL][gpl] version 3 or any later version.  Artwork
+In order to preserve attribution to contributors, it is advised to distribute
+this program’s source code as a complete Git clone. A public clone is available
+via https://github.com/amiryal/misbotheringsms
+
+Code licensed under [GNU GPL][gpl] version 3 or any later version. Artwork
 licensed under [CC BY-NC-SA][cc] 3 or any later version.
 
 [gpl]: https://www.gnu.org/licenses/gpl.html
